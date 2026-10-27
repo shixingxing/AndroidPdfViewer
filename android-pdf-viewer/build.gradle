@@ -9,7 +9,7 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 34
-        versionName "3.2.1"
+        versionName "3.2.2"
     }
 
     compileOptions {
@@ -53,7 +53,7 @@ dependencies {
 
 // JitPack passes -Pgroup / -Pversion on the command line; fall back to local defaults.
 def jitpackGroup = 'com.github.shixingxing'
-def jitpackVersion = '3.2.1'
+def jitpackVersion = '3.2.2'
 
 afterEvaluate {
     publishing {
